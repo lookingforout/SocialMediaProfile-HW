@@ -56,3 +56,24 @@ h2 {
 .links a:hover {
     background-color: #ff4e51;
 }
+
+@media (max-width: 600px) {
+    .profile-pic {
+        width: 120px;
+        height: 120px;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .location, .description {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 400px) {
+    .card {
+        width: 95%;
+    }
+}
